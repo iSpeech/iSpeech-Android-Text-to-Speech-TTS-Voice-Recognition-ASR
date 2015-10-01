@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project basedir="C:\Users\Joseph\workspace\iSpeechSDKAndroid\src\org\ispeech" default="doc" name="api docs">
+<target name="doc" description="my docs">
+<javadoc destdir="C:\Users\Joseph\workspace\iSpeechSDKAndroid\docs" doctitle="Testing the Title" verbose="on" 
+    use="true" 
+    access="public"
+    classpath="C:\Users\Joseph\adt-bundle-windows-x86_64\sdk\platforms\android-7\android.jar;C:\Users\Joseph\workspace\iSpeechSDKAndroid\lib\android-support-v4.jar"  
+    sourcepath="C:\Users\Joseph\workspace\iSpeechSDKAndroid\src"
+    linkoffline="http://d.android.com/reference C:\Users\Joseph\adt-bundle-windows-x86_64\sdk\reference"
+    stylesheetfile="C:\Users\Joseph\adt-bundle-windows-x86_64\sdk\sdocs\assets\android-developer-docs.css"
+    noindex="false"
+    nonavbar="false"
+    notree="false"
+    packagenames="org.ispeech"
+    >
+</javadoc>
+</target>
+</project>
