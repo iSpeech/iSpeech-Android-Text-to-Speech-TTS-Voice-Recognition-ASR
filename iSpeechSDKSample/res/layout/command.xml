@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:orientation="vertical" android:weightSum="1">
+    <ImageView android:src="@drawable/logo" android:id="@+id/imageView1" android:layout_height="wrap_content" android:layout_width="fill_parent" android:scaleType="fitXY" android:adjustViewBounds="true" android:layout_margin="20dp"></ImageView>
+    <Spinner android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/cmbModels" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:entries="@array/models"></Spinner>
+    <Button android:layout_height="wrap_content" android:layout_gravity="center_vertical|center_horizontal" android:id="@+id/btnRecord" android:text="Record" android:layout_width="wrap_content" android:paddingBottom="20dp" android:paddingTop="20dp" android:paddingRight="60dp" android:paddingLeft="60dp" android:layout_margin="10dp"></Button>
+    <Button android:layout_height="wrap_content" android:layout_gravity="center_vertical|center_horizontal" android:id="@+id/btnStop" android:text="Stop" android:layout_width="wrap_content" android:paddingBottom="20dp" android:paddingTop="20dp" android:paddingRight="60dp" android:paddingLeft="60dp" android:layout_margin="10dp"></Button>
+    <TextView android:layout_height="wrap_content" android:id="@+id/lblResult" android:layout_width="wrap_content" android:layout_gravity="center_horizontal"></TextView>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="app_name">iSpeech SDK Sample</string>
+    <string name="tts_sample_text">This is a demo of the iSpeech Android SDK.  Do you like the way iSpeech sounds?  iSpeech\'s SDK makes it easy to add text to speech and speech recognition to your apps, and best of all, it\'s absolutely free.</string>       
+	<string-array name="models">        
+        <item>verizonfios</item><item>date</item><item>time</item><item>text messages</item>
+        <item>food</item>
+        <item>nfl</item><item>nhl</item><item>nba</item><item>usmoney</item><item>mlb</item><item>numbersto9</item><item>numbersto999</item><item>numbersto99</item><item>firstnames</item><item>lastnames</item><item>phonenumber</item><item>streets</item><item>sportsteam</item><item>citystate</item>
+    </string-array>
+</resources>
