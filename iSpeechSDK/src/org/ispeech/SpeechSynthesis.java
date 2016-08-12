@@ -241,7 +241,11 @@ public class SpeechSynthesis implements Synthesizer {
 			@Override
 			public void onPrepared(MediaPlayer mp) {
 				mp.start();
-				audioManager.setStreamSolo(InternalResources.STREAM_TYPE, true); // mute all other audio sources
+				try{
+					audioManager.setStreamSolo(InternalResources.STREAM_TYPE, true); // mute all other audio sources
+				}
+				catch(Exception e){
+				}
 				createEvent(EventType.PLAY_STARTED, null);
 			}
 		});
